@@ -1,0 +1,428 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "32ca8483-209e-0d00-8d3a-cfb602c06bcd"
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "GodotTscnParser Playground"
+	},
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-19T07:44:18.99771-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-19T07:44:37.769687-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "mBiKvYigDQCoeZLBDWu+RQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "You can put the path to any Godot project and it will work"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-19T07:44:39.71476-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-19T07:46:53.98736-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "iz8Kv4igDQCoer4JDWu+RQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Here we use my fork of the FOSS  'Advanced-Movement-System-Godot' that is at 'git@github.com:duchainer/Advanced-Movement-System-Godot.git'"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-18T16:34:02.300025-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-19T07:43:07.936626-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "rvY8hyCeDQCNPBQwAsBrzQ=="
+				},
+				"code" : "projectPath := '/media/raph/first_half_tb_nv/programs/gtoolkit/Advanced-Movement-System-Godot' asFileReference"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-18T16:32:59.89891-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-18T18:55:06.900938-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "YMyEgyCeDQCNO7juAsBrzQ=="
+				},
+				"code" : "getAst := [ :file | GodotTscnParser parseFile: file]"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-18T22:55:03.911485-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-18T22:55:19.964219-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "fYY+EiSeDQChmB92Dgmt2Q=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "We get the files and their dependencies by parsing them"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-18T22:55:24.62974-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-18T22:56:06.370049-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "6H0U2yWeDQCedtvbCw+D6g=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "NOTE: We make `fileToDeps` a `Dictionary` because it is far easier to work with with the `view edges`"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-19T00:37:22.224827-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-19T02:09:48.797963-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "MLPERyeeDQCzKjZ5DDcSgA=="
+				},
+				"code" : "projectFolderChildren := projectPath asFileReference allChildren reject: [:file |\r\tfile path asString matches: '*addons*'].\rallTscnFiles := (projectFolderChildren select: [ :each |  \r\teach basename matches: '*.tscn'] ).allGdFiles := (projectFolderChildren select: [ :each |  \teach basename matches: '*.gd']).\rallGdTscnFiles := (projectFolderChildren select: [ :each |  \t(each basename matches: '*.tscn') or: (each basename matches: '*.gd')] )."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-18T21:41:16.075134-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-19T00:45:35.116112-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "7Qz60SSeDQCKD72/Dk/85g=="
+				},
+				"code" : "fileToDeps := allTscnFiles collect: [ :file | \r\tast := getAst value: file.\r\tvisitor := PathTscnParseNodeVisitor new.\r\tvisitor rootDirectory: projectPath.\r\tvisitor accept: ast.\r\t{file -> (visitor paths select: [:file2 | \r\t(file2 basename endsWith: '.tscn') or:\r\t(file2 basename endsWith: '.gd') ])}\r].\rfileToDeps := fileToDeps flatten asDictionary."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-18T22:52:23.258129-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-18T22:52:46.658106-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "93MJXCWeDQCeaah3Cw+D6g=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Generate the view of the files and linking to their dependencies"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-19T01:21:30.750329-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-19T01:39:38.469545-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "l/2h5SeeDQCe78joB6Hwjg=="
+				},
+				"code" : "view := GtMondrian new.\rview nodes \r\tstencil: [ :each |\r\tBlElement new \r\tsize: 8@8;\r\tbackground: ((each extension = 'gd')\r\t\tifTrue: [ Color red ]\r\t\tifFalse: [ Color blue ])];\r\t with: allGdTscnFiles.\rview edges connect: allTscnFiles\r\tfrom: [:i | i]\r\ttoAll: [:i | fileToDeps at: i].\rview layout force.\rview."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-19T01:47:20.027556-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-19T02:12:03.894113-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "vhX6QSieDQCfF0gaB6Hwjg=="
+				},
+				"code" : "parentToFile := (allGdTscnFiles collect: [:file | \r\t{( file parent ) -> file } ] ).\rparentToFilesDict := parentToFile flatten inject: Dictionary new into: \r[ :acc :b | \r\t(acc includesKey: b key) ifTrue:[\r\t\t(acc at: b key) add: b value.\r\t];\r\tifFalse:[\r\t\tacc at: b key put: ({ b value } asOrderedCollection).\r\t].\r\tacc.\r].\rview2 := GtMondrian new.\r\tview2 nodes\r\t\tstencil: [ :each | GtMondrianUMLClassElement withDefaultContainer\r\t\tlabel: (each at: 1) parent basename];\r\t\twith: parentToFilesDict\r\t\tforEach: [ :parentToFiles | \r\t\t\tview2 nodes labelled: [:o | o basename];\r\t\t\tstencil: [ :each |\r\t\t\t\tBrLabel new \r\t\t\t\ttext: each basenameWithoutExtension;\r\t\t\t\taptitude: (BrGlamorousLabelAptitude new);\r\t\t\t\tgeometry: (BlRoundedRectangleGeometry cornerRadius: 2); \t\t\t   background: ((each extension = 'gd')\r\t\t\t\t\tifTrue: [ Color paleRed ]\r\t\t\t\t\tifFalse: [ Color paleBlue ]);\r\t\t\t\twhen: BlMouseEnterEvent do: [ :anEvent | \r\t\t\t\t\tanEvent currentTarget graph connectedEdges do: [ :inner | \r\t\t\t\t\t\t\tinner element border: (BlBorder paint: (Color red alpha: 1))] ];\r\t\t\t\twhen: BlMouseLeaveEvent do: [ :anEvent | \r\t\t\t\t\tanEvent currentTarget graph connectedEdges do: [ :inner | \r\t\t\t\t\t\t\tinner element border: (BlBorder paint: (Color gray alpha: 0.5)); width: 5 ] ] ];\r\t\t\t\t\r\"\t\t\t\tshape: [ :x | BlTextElement new text: x basename asString asRopedText ];\"\r\t\t\t\twith: parentToFiles.\r\t\t\tview2 layout grid ].\rview2 edges connect: allTscnFiles\r\tfrom: [:i | i]\r\ttoAll: [:i | fileToDeps at: i].\rview2 layout grid.\rview2"
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2022-06-18T16:32:59.898857-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2022-06-18T16:33:56.97546-04:00"
+		}
+	}
+}

@@ -1,0 +1,335 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "fa1391d5-1c9e-0d00-aa0b-8da30ff5c6fb"
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "GodotTscnParser Class"
+	},
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-18T16:25:51.782424-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-18T16:26:33.821264-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "pjmzaSCeDQCCNC9QC7LzWw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "We started from SeanDeNigris TOML Parser"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-19T02:28:03.489029-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-19T02:28:07.498393-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "YkWO0yieDQCfJ6SvB6Hwjg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "We added :"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-19T02:28:08.130152-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-19T02:28:23.849262-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "pELg0yieDQCfKBcYB6Hwjg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "- key_value to standard_table"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-19T02:28:25.205721-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-19T02:28:40.565459-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "s9Hc1CieDQCfKVBbB6Hwjg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "- string_name to value"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-19T02:28:42.475114-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-19T02:28:51.386046-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "4nDj1SieDQCfKr4mB6Hwjg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "- functionCall to value"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-19T02:28:54.511013-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-19T02:29:36.820274-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "NPuR1iieDQCfK9gCB6Hwjg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "- Tried to add dictionary `{inner_key: inner_value}` support but that was not crucial"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-19T02:27:40.247904-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-19T02:27:40.247904-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "YJaR1RyeDQCqDMuwD/XG+w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "/*\rLicensed to the Apache Software Foundation (ASF) under one\ror more contributor license agreements.  See the NOTICE file\rdistributed with this work for additional information\rregarding copyright ownership.  The ASF licenses this file\rto you under the Apache License, Version 2.0 (the\r\"License\"); you may not use this file except in compliance\rwith the License.  You may obtain a copy of the License at\r\r  http://www.apache.org/licenses/LICENSE-2.0\r\r  Unless required by applicable law or agreed to in writing,\r  software distributed under the License is distributed on an\r  \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\r  KIND, either express or implied.  See the License for the\r  specific language governing permissions and limitations\r  under the License.\r*/\r\r%glr;\r%annotate_tokens;\r%root Parse;\r%prefix Tscn;\r%suffix Node;\r/*grammar toml;*/\r\r/*\r * Parser Rules\r */\r\rdocument : expression 'expression' (<NL> expression 'expression')* {{}};\r\rexpression : key_value 'keyValue' comment 'comment' | table comment 'comment' | comment 'comment' {{}};\r\rcomment: <COMMENT>? ;\r\rkey_value : key 'key' \"=\" value 'value' {{}};\r\rkey : simple_key | dotted_key;\r\rsimple_key : quoted_key | unquoted_key ;\r\runquoted_key : <UNQUOTED_KEY> 'string' { string value };\r\rquoted_key \r\t:  basicString\r\t| literalString;\rliteralString\r\t: <LITERAL_STRING> 'string' { string value copyFrom: 2 to: string value size - 1 }\r\t;\rbasicString\r\t: <BASIC_STRING> 'string' { string value copyFrom: 2 to: string value size - 1 }\r\t;\r\rdotted_key : simple_key (\".\" simple_key)+;\r\rvalue \n\t: string\n\t| integer \n\t| floating_point \n\t| bool_ \n\t| date_time \n\t| array_ \n\t| inline_table\n\t| functionCall\n\t| stringName\n\t| dictionary_\n\t| <UNQUOTED_KEY>\n\t;\rdictionary_\r\t: \"{\" <NL> <non_NL>* <NL> \"}\"\r\t;\rfunctionCall\r\t: <UNQUOTED_KEY> \"(\" arguments \")\"\r\t;\rarguments\r\t: (argument ( \",\" argument) * )?\r\t;\rargument\r\t: string\r\t| integer \r\t| floating_point \r\t| bool_ \r\t| date_time \r\t| array_ \n\t| <UNQUOTED_KEY>\r\t;\r\rstring : basicString | mlBasicString | literalString | mlLiteralString;\rstringName\r\t: \"&\" string\r\t;\rmlLiteralString\r\t: <ML_LITERAL_STRING> 'string' { string value copyFrom: 4 to: string value size -3 }\r\t;\rmlBasicString\r\t: <ML_BASIC_STRING> 'string' { string value copyFrom: 4 to: string value size -3 }\r\t;\r\rinteger \r\t: <DEC_INT> 'int' { (int value copyWithoutAll: '_') asNumber } \r\t| <HEX_INT> \r\t| <OCT_INT> \r\t| <BIN_INT> ;\r\rfloating_point : <FLOAT> | <INF> | <NAN> ;\r\rbool_ : <BOOLEAN> 'bool' { bool value = 'true' };\r\rdate_time \r\t: <OFFSET_DATE_TIME> 'dt' { dt value asDateAndTime } \r\t| <LOCAL_DATE_TIME>'dt' { dt value asDateAndTime } \r\t| <LOCAL_DATE> 'date' { date value asDate } \r\t| <LOCAL_TIME> 'time' { time value asTime } ;\rarray_ : \"[\" array_values? comment_or_nl \"]\" ;\r\rarray_values : (comment_or_nl value 'value' nl_or_comment \",\" array_values comment_or_nl) | comment_or_nl value 'value' nl_or_comment \",\"? ;\r\rcomment_or_nl : (<COMMENT>? <NL>)* ;\rnl_or_comment : (<NL> <COMMENT>?)* ;\r\rtable : standard_table | array_table ;\r\rstandard_table \n\t: \"[\" key 'table_name' \"]\" {{}}\n| \"[\" key 'table_name' key_value 'key_value' *\"]\" {{}}\n\t;\r\rinline_table : \"{\" inline_table_keyvals \"}\" ;\r\rinline_table_keyvals : inline_table_keyvals_non_empty? ;\r\rinline_table_keyvals_non_empty : key 'key' \"=\" value 'value' (\",\" inline_table_keyvals_non_empty)? ;\r\rarray_table : \"[\" \"[\" key 'key' \"]\" \"]\" {{}};\r\r/*\r * Lexer Rules\r */\r\r<whitespace> : [\\ \\t]+ ;\r<NL> : (\\r? \\n)+ ;\r<COMMENT> : \\# ([^\\n])* ;\r\r<DIGIT> : [0-9] ;\r<ALPHA> : [A-Za-z] ;\r\r# booleans\r<BOOLEAN> : true | false ;\r\r# strings\r<ESC> : \\\\ ([\\\"\\\\\\/bfnrt] | <UNICODE> | <EX_UNICODE>) ;\r<ML_ESC> : \\\\ \\r? \\n | <ESC> ;\r<UNICODE> : u <HEX_DIGIT> <HEX_DIGIT> <HEX_DIGIT> <HEX_DIGIT> ;\r<EX_UNICODE> : U <HEX_DIGIT> <HEX_DIGIT> <HEX_DIGIT> <HEX_DIGIT> <HEX_DIGIT> <HEX_DIGIT> <HEX_DIGIT> <HEX_DIGIT> ;\r<BASIC_STRING> : \\\" (<ESC> | [^\\\"\\\\])* \\\" ;\r<ML_BASIC_STRING> : \\\"\\\"\\\" (<ML_ESC> | [^\\\"\\\\])* \\\"\\\"\\\" ;\r<LITERAL_STRING> : \\' ([^\\'\\n])* \\' ;\r<ML_LITERAL_STRING> : \\'\\'\\' ( [^\\\\\\'] | \\'[^\\'] | \\'\\'[^\\'] )* \\'\\'\\';\r# floating point numbers\r<EXP> : (e | E) [\\+\\-]? <ZERO_PREFIXABLE_INT> ;\r<ZERO_PREFIXABLE_INT> : <DIGIT> (<DIGIT> | _ <DIGIT>)* ;\r<FRAC> : \\. <ZERO_PREFIXABLE_INT> ;\r<FLOAT> : <DEC_INT> ( <EXP> | <FRAC> <EXP>?) ;\r<INF> : [\\+\\-]? inf ;\r<NAN> : [\\+\\-]? nan ;\r# integers\r<HEX_DIGIT> : [A-Fa-f] | <DIGIT> ;\r<DIGIT_1_9> : [1-9] ;\r<DIGIT_0_7> : [0-7] ;\r<DIGIT_0_1> : [0-1] ;\r<DEC_INT> : [\\+\\-]? (<DIGIT> | (<DIGIT_1_9> (<DIGIT> | _ <DIGIT>)+)) ;\r<HEX_INT> : 0x <HEX_DIGIT> (<HEX_DIGIT> | _ <HEX_DIGIT>)* ;\r<OCT_INT> : 0o <DIGIT_0_7> (<DIGIT_0_7> | _ <DIGIT_0_7>)* ;\r<BIN_INT> : 0b <DIGIT_0_1> (<DIGIT_0_1> | _ <DIGIT_0_1>)* ;\r# dates\r<YEAR> : <DIGIT> <DIGIT> <DIGIT> <DIGIT> ;\r<MONTH> : <DIGIT> <DIGIT> ;\r<DAY> : <DIGIT> <DIGIT> ;\r<DELIM> : T | t | \\  ;\r<HOUR> : <DIGIT> <DIGIT> ;\r<MINUTE> : <DIGIT> <DIGIT> ;\r<SECOND> : <DIGIT> <DIGIT> ;\r<SECFRAC> : \\. <DIGIT>+ ;\r<NUMOFFSET> : (\\+ | \\-) <HOUR> \\: <MINUTE> ;\r<OFFSET> : Z | <NUMOFFSET> ;\r<PARTIAL_TIME> : <HOUR> \\: <MINUTE> \\: <SECOND> <SECFRAC>? ;\r<FULL_DATE> : <YEAR> \\- <MONTH> \\- <DAY> ;\r<FULL_TIME> : <PARTIAL_TIME> <OFFSET> ;\r<OFFSET_DATE_TIME> : <FULL_DATE> <DELIM> <FULL_TIME> ;\r<LOCAL_DATE_TIME> : <FULL_DATE> <DELIM> <PARTIAL_TIME> ;\r<LOCAL_DATE> : <FULL_DATE> ;\r<LOCAL_TIME> : <PARTIAL_TIME> ;\r# keys\r<UNQUOTED_KEY> : (<ALPHA> | <DIGIT> | \\- | _| \\/)+ ;\r\r<non_NL>\r\t: [\\w\\d \\t:=-_]\r\t;"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-18T12:09:47.096211-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-06-18T12:09:47.096211-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "scAx1hyeDQCqDap7D/XG+w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2022-06-18T12:09:36.566331-04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2022-06-18T16:31:14.61005-04:00"
+		}
+	}
+}
