@@ -1,14 +1,6 @@
 {
 	"__schema" : "4.1",
 	"__type" : "page",
-	"uid" : {
-		"__type" : "uuid",
-		"uuid" : "32ca8483-209e-0d00-8d3a-cfb602c06bcd"
-	},
-	"pageType" : {
-		"__type" : "namedPage",
-		"title" : "GodotTscnParser Playground"
-	},
 	"children" : {
 		"__type" : "snippets",
 		"items" : [
@@ -90,7 +82,42 @@
 				"__type" : "pharoSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [ ]
+					"items" : [
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-06-18T16:34:02.300025-04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2022-07-19T10:58:05.279569-04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "rvY8hyCeDQCNPBQwAsBrzQ=="
+							},
+							"code" : "projectPath := '/media/raph/first_half_tb_nv/programs/gtoolkit/Advanced-Movement-System-Godot' asFileReference"
+						}
+					]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -100,7 +127,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-18T16:34:02.300025-04:00"
+						"dateAndTimeString" : "2022-07-19T10:58:00.173144-04:00"
 					}
 				},
 				"editEmail" : {
@@ -111,14 +138,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-07-19T07:43:07.936626-04:00"
+						"dateAndTimeString" : "2022-07-19T10:59:06.499722-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "rvY8hyCeDQCNPBQwAsBrzQ=="
+					"uidString" : "ifKPcougDQCz+Y5JCH8hmg=="
 				},
-				"code" : "projectPath := '/media/raph/first_half_tb_nv/programs/gtoolkit/Advanced-Movement-System-Godot' asFileReference"
+				"code" : "projectPath := '/Users/raph/Documents/GitHub/gt4godot/Advanced-Movement-System-Godot' asFileReference"
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -145,7 +172,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-18T18:55:06.900938-04:00"
+						"dateAndTimeString" : "2022-07-20T05:37:09.253585-04:00"
 					}
 				},
 				"uid" : {
@@ -381,6 +408,250 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-20T05:30:45.052953-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-20T05:30:45.055907-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "8ioP/pqgDQCqYuR4C2Br1w=="
+				},
+				"code" : "parentToFile := (allGdTscnFiles collect: [:file | \r\t{( file parent ) -> file } ] ).\rparentToFilesDict := parentToFile flatten inject: Dictionary new into: \r[ :acc :b | \r\t(acc includesKey: b key) ifTrue:[\r\t\t(acc at: b key) add: b value.\r\t];\r\tifFalse:[\r\t\tacc at: b key put: ({ b value } asOrderedCollection).\r\t].\r\tacc.\r]."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-20T05:37:35.12778-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-20T05:37:57.200085-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "5e1qFpugDQCqZuMgC2Br1w=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "We get all the project folders for the tree/Treemap view of the project structure"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-24T04:44:03.145099-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-24T04:44:49.142892-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "EH5YzuqgDQCtfeJdCDsNAw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "We exclude the hidden directories ( those starting with '.') and their children"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-24T04:33:13.955947-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-24T04:48:31.539477-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Axu5p+qgDQCteqkbCDsNAw=="
+				},
+				"code" : "rejectHiddenDirsAndTheirChildren := [:dirs | dirs reject: [:dir | dir path asString matches: '*''.*'] ]"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-23T14:32:33.663737-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-24T04:46:54.793733-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "IVM/6d6gDQCtZqtfCDsNAw=="
+				},
+				"code" : "allFolders := rejectHiddenDirsAndTheirChildren value: \r\r\t(projectPath asFileReference allDirectories).\r\"allFolders add: projectPath asFileReference.\"\rallFolders."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-21T07:37:02.268995-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-23T14:32:03.990924-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "aa6J37CgDQCq4sztC2Br1w=="
+				},
+				"code" : "parentToPossibleFilesDict := parentToFilesDict deepCopy.\r\t(allFolders difference: parentToFilesDict keys) collect: [:each | parentToPossibleFilesDict add: (each -> OrderedCollection new)].\r\tparentToPossibleFilesDict."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-24T04:55:56.664489-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-24T04:55:56.667821-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "72Ly+OqgDQCtgopHCDsNAw=="
+				},
+				"code" : "view2 := GtMondrian new.\r\tview2 nodes\r\t\tstencil: [ :each | GtMondrianUMLClassElement withDefaultContainer\r\t\tlabel: (each at: 1 ifAbsent: AbsolutePath new) parent basename];\r\t\twith: parentToPossibleFilesDict\r\t\tforEach: [ :parentToFiles | \r\t\t\tview2 nodes labelled: [:o | o basename];\r\t\t\tstencil: [ :each |\r\t\t\t\tBrLabel new \r\t\t\t\ttext: each basenameWithoutExtension;\r\t\t\t\taptitude: (BrGlamorousLabelAptitude new);\r\t\t\t\tgeometry: (BlRoundedRectangleGeometry cornerRadius: 2); \t\t\t   background: ((each extension = 'gd')\r\t\t\t\t\tifTrue: [ Color paleRed ]\r\t\t\t\t\tifFalse: [ Color paleBlue ]);\r\t\t\t\twhen: BlMouseEnterEvent do: [ :anEvent | \r\t\t\t\t\tanEvent currentTarget graph connectedEdges do: [ :inner | \r\t\t\t\t\t\t\tinner element border: (BlBorder paint: (Color red alpha: 1))] ];\r\t\t\t\twhen: BlMouseLeaveEvent do: [ :anEvent | \r\t\t\t\t\tanEvent currentTarget graph connectedEdges do: [ :inner | \r\t\t\t\t\t\t\tinner element border: (BlBorder paint: (Color gray alpha: 0.5)); width: 5 ] ] ];\r\t\t\t\t\r\"\t\t\t\tshape: [ :x | BlTextElement new text: x basename asString asRopedText ];\"\r\t\t\t\twith: parentToFiles.\r\t\t\tview2 layout tree ].\rview2 edges connect: allTscnFiles\r\tfrom: [:i | i]\r\ttoAll: [:i | fileToDeps at: i].\rview2 edges connect: parentToPossibleFilesDict keys\r\ttoAll: [:i | i children].\rview2 layout grid.\rview2"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
 						"dateAndTimeString" : "2022-06-19T01:47:20.027556-04:00"
 					}
 				},
@@ -392,14 +663,82 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-19T02:12:03.894113-04:00"
+						"dateAndTimeString" : "2022-07-24T05:29:02.918261-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "vhX6QSieDQCfF0gaB6Hwjg=="
 				},
-				"code" : "parentToFile := (allGdTscnFiles collect: [:file | \r\t{( file parent ) -> file } ] ).\rparentToFilesDict := parentToFile flatten inject: Dictionary new into: \r[ :acc :b | \r\t(acc includesKey: b key) ifTrue:[\r\t\t(acc at: b key) add: b value.\r\t];\r\tifFalse:[\r\t\tacc at: b key put: ({ b value } asOrderedCollection).\r\t].\r\tacc.\r].\rview2 := GtMondrian new.\r\tview2 nodes\r\t\tstencil: [ :each | GtMondrianUMLClassElement withDefaultContainer\r\t\tlabel: (each at: 1) parent basename];\r\t\twith: parentToFilesDict\r\t\tforEach: [ :parentToFiles | \r\t\t\tview2 nodes labelled: [:o | o basename];\r\t\t\tstencil: [ :each |\r\t\t\t\tBrLabel new \r\t\t\t\ttext: each basenameWithoutExtension;\r\t\t\t\taptitude: (BrGlamorousLabelAptitude new);\r\t\t\t\tgeometry: (BlRoundedRectangleGeometry cornerRadius: 2); \t\t\t   background: ((each extension = 'gd')\r\t\t\t\t\tifTrue: [ Color paleRed ]\r\t\t\t\t\tifFalse: [ Color paleBlue ]);\r\t\t\t\twhen: BlMouseEnterEvent do: [ :anEvent | \r\t\t\t\t\tanEvent currentTarget graph connectedEdges do: [ :inner | \r\t\t\t\t\t\t\tinner element border: (BlBorder paint: (Color red alpha: 1))] ];\r\t\t\t\twhen: BlMouseLeaveEvent do: [ :anEvent | \r\t\t\t\t\tanEvent currentTarget graph connectedEdges do: [ :inner | \r\t\t\t\t\t\t\tinner element border: (BlBorder paint: (Color gray alpha: 0.5)); width: 5 ] ] ];\r\t\t\t\t\r\"\t\t\t\tshape: [ :x | BlTextElement new text: x basename asString asRopedText ];\"\r\t\t\t\twith: parentToFiles.\r\t\t\tview2 layout grid ].\rview2 edges connect: allTscnFiles\r\tfrom: [:i | i]\r\ttoAll: [:i | fileToDeps at: i].\rview2 layout grid.\rview2"
+				"code" : "view3 := GtMondrian new.\rview3 nodes\r\tstencil: [ :each | GtMondrianUMLClassElement \twithDefaultContainer\r\t\tlabel: each basename];  with: allFolders;\r forEach: [:dir | \r view3 nodes \r \tshape: [ :x | BlTextElement new text: x basename asRopedText ];\r \twith: (rejectHiddenDirsAndTheirChildren value: ((dir filesMatching: '*.tscn;*.gd')))].\rview3 edges connect: allFolders\r\tfrom: [:each | each]\r\ttoAll: [:each | each directoriesNotMatching: '.*' ].\rview3 layout tree.\rview3."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-24T04:59:32.104162-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-24T05:08:03.469186-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "P7zJBeugDQCtg0j8CDsNAw=="
+				},
+				"code" : "view4 := GtMondrian new.\rcontent := {1 -> 'a' . 2 -> 'b'}.\rview4 nodes with: content.\r"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-24T05:08:28.230226-04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2022-07-24T05:30:10.473396-04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "fl6+JeugDQCthNCBCDsNAw=="
+				},
+				"code" : "view5 := GtMondrian new.\rview5 nodes\r\tstencil: [ :each | GtMondrianUMLClassElement \twithDefaultContainer\r\t\tlabel: each basename];  with: allFolders;\r forEach: [:dir | \r view5 nodes \r \tshape: [ :x | BlTextElement new text: x basename asRopedText ];\r \twith: (rejectHiddenDirsAndTheirChildren value: ((dir filesMatching: '*.tscn;*.gd')))].\rview5 edges connect: allFolders\r\tfrom: [:each | each]\r\ttoAll: [:each | each directoriesNotMatching: '.*' ].\rview5 layout tree.\rview5."
 			}
 		]
 	},
@@ -424,5 +763,13 @@
 			"__type" : "dateAndTime",
 			"dateAndTimeString" : "2022-06-18T16:33:56.97546-04:00"
 		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "GodotTscnParser Playground"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "32ca8483-209e-0d00-8d3a-cfb602c06bcd"
 	}
 }
