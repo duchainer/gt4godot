@@ -116,6 +116,40 @@
 								"uidString" : "rvY8hyCeDQCNPBQwAsBrzQ=="
 							},
 							"code" : "projectPath := '/media/raph/first_half_tb_nv/programs/gtoolkit/Advanced-Movement-System-Godot' asFileReference"
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-05-09T03:10:33.583279-04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-05-09T03:11:34.583999-04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "kiQzMJ+3DQCtcB0SCxJu9Q=="
+							},
+							"code" : "projectPath := '/Users/Github/the-mirror/mirror-godot-app' asFileReference"
 						}
 					]
 				},
@@ -280,14 +314,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2022-06-19T02:09:48.797963-04:00"
+						"dateAndTimeString" : "2023-05-09T03:07:26.691977-04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "MLPERyeeDQCzKjZ5DDcSgA=="
 				},
-				"code" : "projectFolderChildren := projectPath asFileReference allChildren reject: [:file |\r\tfile path asString matches: '*addons*'].\rallTscnFiles := (projectFolderChildren select: [ :each |  \r\teach basename matches: '*.tscn'] ).allGdFiles := (projectFolderChildren select: [ :each |  \teach basename matches: '*.gd']).\rallGdTscnFiles := (projectFolderChildren select: [ :each |  \t(each basename matches: '*.tscn') or: (each basename matches: '*.gd')] )."
+				"code" : "projectFolderChildren := projectPath asFileReference allChildren reject: [:file |\r\tfile path asString matches: '*addons*'].\rallTscnFiles := (projectFolderChildren select: [ :each |  \r\teach basename matches: '*.tscn'] ).\rallGdFiles := (projectFolderChildren select: [ :each |  \teach basename matches: '*.gd']).\rallGdTscnFiles := (projectFolderChildren select: [ :each |  \t(each basename matches: '*.tscn') or: (each basename matches: '*.gd')] )."
 			},
 			{
 				"__type" : "pharoSnippet",
