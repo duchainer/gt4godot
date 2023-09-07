@@ -224,6 +224,11 @@ array_table : ""["" ""["" key 'key' ""]"" ""]"" {{}};
 	;"
 ]
 
+{ #category : #accessing }
+GodotTscnParser class >> fileExtension [
+	^ '.tscn'
+]
+
 { #category : #generated }
 GodotTscnParser class >> reduceTable [
 ^#(
